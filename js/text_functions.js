@@ -24,3 +24,11 @@ function dynaText(obj,texts,commentaries) {
     // replace obj HTML with next text
     obj.outerHTML = texts[i][0];
 }
+
+function revealLinks() {
+    var spans = document.getElementsByTagName('SPAN');
+    l = spans.length;
+    for (i = 0; i < l; i++) {
+        spans[i].style.color = "blue";
+    }
+}
