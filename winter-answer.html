@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Winter-Early</title>
+  <script src="js/text_functions.js">
+    // basic text manipulation functions
+  </script>
+  <script src="js/winter-answer.js">
+    // variables for dynamic text replacement
+  </script>
+</head>
+
+<body>
+
+    <h2>German 472 Final Translation Project</h2>
+    <p>
+        Selected Poems from <em>Free Advice</em> (Verschenkter Rat)
+        by Ilse Aichinger. Translated by Gavin Jager.
+    </p>
+    
+    <div class="topnav">
+        <a href="index.html"><strong>Home</strong></a>
+        <a class="active" href="winter-answer.html">Winter-Answer</a>
+        <a href="part-of-the-question.html">Part of the Question</a>
+        <a href="winter-early.html">Winter-Early</a>
+        <a style="float:right" href="about.html">About</a>
+    </div>
+    
+    <div class="row">
+
+      <div id="text" class="column">
+        <span onmouseover="mOn(this)" onmouseout="mOff(this)"
+        onmousedown="clickReplace(this,'commentary',gen_commentary)"
+        onmouseup="mOn(this)"><h3>Winter-Answer</h3></span>
+        <p>
+            The fabric of the world,<br>
+            it demands to be considered:<br>
+            no more eyes<br>
+            to gaze upon white meadows,<br>
+            no ears, which in the boughs<br>
+            can hear the stirring of birds.<br>
+            Grandmother, where are your lips gone,<br>
+            to taste the sweet grasses,<br>
+            and who smells the sky for us,<br>
+            whose cheeks are scratched<br>
+            still sore on the walls of the village?<br>
+            Is it not a dark forest<br>
+            we're getting ourselves into?<br>
+            No, Grandmother, it is not dark,<br>
+            I know it, I lived a while<br>
+            with the children on its edge,<br>
+            and it is not even a forest.
+        </p>
+        <sub><span onmouseover="mOn(this)" onmouseout="mOff(this)"
+        onmousedown="clickReplace(this,'commentary',german_text)"
+        onmouseup="mOn(this)">
+          original: Winterantwort
+        </span></sub>
+      </div>
+
+      <div id="commentary" class="column">
+      </div>
+      <script>writeCommentary();</script>
+
+    </div>
+    
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Winter-Early</title>
+  <script src="js/text_functions.js">
+    // basic text manipulation functions
+  </script>
+  <script src="js/winter-early.js">
+    // variables for dynamic text replacement
+  </script>
+</head>
+
+<body>
+
+    <h2>German 472 Final Translation Project</h2>
+    <p>
+        Selected Poems from <em>Free Advice</em> (Verschenkter Rat)
+        by Ilse Aichinger. Translated by Gavin Jager.
+    </p>
+    
+    <div class="topnav">
+        <a href="index.html"><strong>Home</strong></a>
+        <a href="winter-answer.html">Winter-Answer</a>
+        <a href="part-of-the-question.html">Part of the Question</a>
+        <a class="active" href="winter-early.html">Winter-Early</a>
+        <a style="float:right" href="about.html">About</a>
+    </div>
+    
+    <div class="row">
+
+      <div id="text" class="column">
+        <span onmouseover="mOn(this)" onmouseout="mOff(this)"
+        onmousedown="clickReplace(this,'commentary',gen_commentary)"
+        onmouseup="mOn(this)"><h3>Winter-Early</h3></span>
+        <p>
+          'Ere the dreams rust and break,<br>
+
+          let the lovers <span id="0" onmouseover="mOn(this)" onmouseout="mOff(this)"
+          onmousedown="dynaText(this,dynamic_text,commentaries)"
+          onmouseup="mOn(this)">upon them descend,</span><br>
+
+          the great and the small in their grey overcoats,<br>
+
+          <span id="1" onmouseover="mOn(this)" onmouseout="mOff(this)"
+          onmousedown="dynaText(this,dynamic_text,commentaries)"
+          onmouseup="mOn(this)">Look outward, </span> 
+          the 
+          <span id="2" onmouseover="mOn(this)" onmouseout="mOff(this)"
+          onmousedown="dynaText(this,dynamic_text,commentaries)"
+          onmouseup="mOn(this)">bright tram,</span>
+          the ice.
+        </p>
+        <sub><span onmouseover="mOn(this)" onmouseout="mOff(this)"
+        onmousedown="clickReplace(this,'commentary',german_text)"
+        onmouseup="mOn(this)">
+          original: Winterfrüh
+        </span></sub>
+      </div>
+
+      <div id="commentary" class="column">
+      </div>
+      <script>writeCommentary();</script>
+
+    </div>
+    
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+
+</body>
+
+</html>

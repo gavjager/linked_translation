@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Winter-Early</title>
+  <script src="js/text_functions.js">
+    // basic text manipulation functions
+  </script>
+  <script src="js/part-of-the-question.js">
+    // variables for dynamic text replacement
+  </script>
+</head>
+
+<body>
+
+    <h2>German 472 Final Translation Project</h2>
+    <p>
+        Selected Poems from <em>Free Advice</em> (Verschenkter Rat)
+        by Ilse Aichinger. Translated by Gavin Jager.
+    </p>
+    
+    <div class="topnav">
+        <a href="index.html"><strong>Home</strong></a>
+        <a href="winter-answer.html">Winter-Answer</a>
+        <a class="active" href="part-of-the-question.html">Part of the Question</a>
+        <a href="winter-early.html">Winter-Early</a>
+        <a style="float:right" href="about.html">About</a>
+    </div>
+    
+    <div class="row">
+
+      <div id="text" class="column">
+        <span onmouseover="mOn(this)" onmouseout="mOff(this)"
+        onmousedown="clickReplace(this,'commentary',gen_commentary)"
+        onmouseup="mOn(this)"><h3>Part of the Question</h3></span>
+        <p>
+          High on the platform stands the pool of water,<br>
+          the air seems to rise up in bulbs,<br>
+          and what they are singing<br>
+          leaves no more impression on me.<br>
+          The fish circle round the church doors,<br>
+          who will answer me:<br>
+          Shall I away to the mountain,<br>
+          or to the house with those<br>
+          who love me,<br>
+          and the broad view,<br>
+          the crunch of every step,<br>
+          once more?<br>
+          Oh how my land is turning black,<br>
+          only deep below,<br>
+          time bends greenly.
+        </p>
+        <sub><span onmouseover="mOn(this)" onmouseout="mOff(this)"
+        onmousedown="clickReplace(this,'commentary',german_text)"
+        onmouseup="mOn(this)">
+          original: Teil der Frage
+        </span></sub>
+      </div>
+
+      <div id="commentary" class="column">
+      </div>
+      <script>writeCommentary();</script>
+
+    </div>
+    
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+
+</body>
+
+</html>
