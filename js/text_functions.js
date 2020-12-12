@@ -22,5 +22,5 @@ function dynaText(obj,texts,commentaries) {
     // replace current text in corresponding dynamic texts
     texts[i].push(current);
     // replace obj HTML with next text
-    obj.innerHTML = texts[i][0];
+    obj.outerHTML = texts[i][0];
 }

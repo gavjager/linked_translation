@@ -1,16 +1,23 @@
 Winter-answer
 Ilse Aichinger
 
-The fabric of the world,
-it demands to be considered:
-no more eyes
-to gaze upon white meadows,
+["The fabric of the world,
+it demands to be considered:",
+"The world is made of such stuff,
+which requires contemplation:",
+"The world is made of such stuff;
+take it all in:"]
+["no more eyes",
+"no eyes anymore",
+"we lack the eyes"]
+with which to see the white meadows,
 no ears, which in the boughs
-can hear the stirring of birds.
+can hear the ["stirring", "whirring"] of birds.
 Grandmother, where are your lips gone,
-to taste the sweet grasses,
-and who smells the sky for us,
-whose cheeks are scratched
+["to taste the sweet grasses,",
+"with which to savor the grasses,"]
+and who smells for us the sky to its end,
+whose cheeks rub themselves today
 still sore on the walls of the village?
 Is it not a dark forest
 we're getting ourselves into?
@@ -18,3 +25,94 @@ No, Grandmother, it is not dark,
 I know it, I lived a while
 with the children on its edge,
 and it is not even a forest.
+
+The world is made of such stuff,
+which requires contemplation:
+no eyes anymore,
+in order to see the white meadows,
+no ears, in order to hear
+in the boughs the stirring of birds.
+Grandmother, to whence are your lips,
+
+Die Welt ist aus dem Stoff,
+der Betrachtung verlangt:
+keine Augen mehr,
+um die weißen Wiesen zu sehen,
+keine Ohren, um im Geäst
+das Schwirren der Vögel zu hören.
+Großmutter, wo sind deine Lippen hin,
+um die Gräser zu schmecken,
+und wer riecht uns den Himmel zu Ende,
+wessen Wangen reiben sich heute
+noch wund an den Mauern im Dorf?
+Ist es nicht ein finsterer Wald,
+in den wir gerieten?
+Nein, Großmutter, er ist nicht finster,
+ich weiß es, ich wohnte lang
+bei den Kindern am Rande,
+und es ist auch kein Wald.
+
+The world is made of such stuff;
+take it all in:
+we lack the eyes,
+to see the white meadows,
+the ears, which in the boughs
+can hear the whirring of birds.
+Grandmother, where are your lips,
+to savor the grasses,
+and who smells for us the sky, the whole,
+whose cheeks are now rubbed raw,
+still sore on the walls of the village?
+Isn't it dark, this woods
+we're getting ourselves into?
+No, Grandmother, it's not dark,
+I know it, I lived a while
+with the children on the edge,
+and it is not even a woods. 
+
+
+
+[
+    "The fabric of the world,<br>
+    it demands to be considered:",
+    "The world is made of such stuff,<br>
+    which demands contemplation:",
+    "The world is made of such stuff;<br>
+    take it all in:"
+] // 1
+[
+    "we lack the eyes,<br>
+    to see the white meadows,<br>
+    the ears,",
+    '<span id="3" onmouseover="mOn(this)" onmouseout="mOff(this)"
+    onmousedown="dynaText(this,dynamic_text,commentaries)"
+    onmouseup="mOn(this)">no more eyes,</span><br>
+    with which to see the white meadows,<br>
+    no ears,'
+] // 2
+[
+    "no more eyes,",
+    "no eyes anymore,"
+] // 3
+which in the boughs,<br>
+can hear the whirring of birds.<br>
+Grandmother, where are your lips,<br>
+to 
+[
+    "taste",
+    "savor"
+] // 4
+the grasses,<br>
+and who smells 
+[
+    "the sky for us to the end,",
+    "for us the sky completely,"
+] // 5
+we whose cheeks are now rubbed raw,
+still sore on the walls in the village?
+Isn't it dark, this woods
+we've gotten ourselves into?
+No, Grandmother, it's not dark,
+I know it, I lived a while
+with the children on the edge,
+and it is not even a woods. 
