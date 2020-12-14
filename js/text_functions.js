@@ -32,3 +32,13 @@ function revealLinks() {
         spans[i].style.color = "blue";
     }
 }
+
+function hideToggle(id) {
+    var el = document.getElementById(id);
+    if (el.style.visibility != "hidden") {
+        el.style.visibility = "hidden";
+    }
+    else {
+        el.style.visibility = "visible";
+    }
+}
