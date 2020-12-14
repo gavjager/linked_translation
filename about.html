@@ -5,7 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Free Advice: Home</title>
+        <title>Linked-Dynamic Translation</title>
+        <script src="js/text_functions.js">
+          // basic text manipulation functions
+        </script>
+        <script src="js/about.js">
+          // variables for dynamic text replacement
+        </script>
 </head>
 
 <body>
@@ -41,47 +47,96 @@
       </p>
       <h3>What's so Interesting About It?</h3>
       <p>
-        The goal is to explore a new way of translating. 
+        The goal of this project is to explore a new way of translating. 
         Good translation should stand on its own as
         a work of art. It should 
         <q>awake an echo of the original,</q><sup><a 
           href="#Benjamin">1</a></sup>  
-        and function on its own terms
-        in the target language. Translation also cannot
-        escape its role as commentary on the original work
-        and on the process of translation itself.
-        Performing this task artfully relies
+        which is to say that it needs to remain connected in an almost resonant way
+        with the source work, but also function on its own terms
+        in the target language. Translation cannot
+        ignore its role as commentary on the original work
+        and on the process of translation itself. Like all art, it thrives on the creation and
+        presentation of context, in that context gives it meaning, with each work then becoming
+        part of the context. 
+        Translating, then, relies
         on an economy of language and information: 
         too little, and the work becomes either cryptic – an
         exercise in "translation-ese" – or disconnected from the
         original; too much, and the translation is bogged down,
         broken up, and becomes merely commentary and disassembly
-        of the original.
+        of the original. One of the main difficulties in translation is the
+        struggle to find and maintain a consistent approach, one that
+        respects the economy of language and uses it to create
+        and connect. 
       </p>
       <p>
-        With the internet, we have a new medium, and new rules.
-        Information is more accesible, and can be
-        presented in new ways. Language can be used in ways that 
-        were not previously possible. We have, in effect, a new
+        The nature of language is such that
+        <q><span id="0" class="linky">no word</span>
+          <span id="1"class="linky">in one</span>
+          <span id="2"class="linky">language</span>
+          <span id="3"class="linky">is totally</span>
+          <span id="4"class="linky">equal</span>
+          <span id="5"class="linky">to one</span>
+          <span id="6"class="linky">in another</span>.</q><sup><a href="#Humboldt">2</a></sup>
+        (Take a closer look at this quote). There are many different ways to translate, and the resulting
+        translations will have different syntax, semantics, and meaning in the target language.
+        The trick is then to choose the translation which will create and connect context –
+        this relates directly to Schleiermacher's concept of whether to "move the reader" 
+        or "move the writer,"<sup><a href="#Schleiermacher">3</a></sup> but is not necessarily
+        bound to either option. 
+        With the dynamic translation techniques that this project is trying to develop,
+        these differences between translations are highlighted, the ability to give context to
+        the reader is increased, and everything is incorporated into a single
+        work which can still stand alone as a work of art.
+      </p>
+      <p>
+        The danger in all of this
+        is still that the translation could be bogged down by an overabundance of 
+        information. Therefore, it is vital that we take advantage of <em>how</em>
+        the work and its context can be presented, and the ways in which language can be used that
+        were not previously possible.
+        It is with this in mind that I decided
+        to keep the dynamic links initially hidden in the poems and give the reader the ability
+        to hide the commentary. The work needs to stand on its own, and the reader needs
+        to have some control over the information which is presented to them. 
+      </p>
+      <p>
+        With the internet, we have a new medium and new rules.
+        We have, in effect, a new
         economy of language and information, one that lends itself
         well to the process and product of translation. 
-        
       </p>
 
       <hr>
+      
       <h3>References</h3>
       <ol>
-        <li name="Benjamin">Benjamin, Walter. 
-          <a href="texts/Benjamin_Task_of_the_translator.pdf">
+        <li id="Benjamin">Benjamin, Walter. 
+          <a target="_blank" href="texts/Benjamin_Task_of_the_translator.pdf">
             "The Task of the Translator."
           </a> pg 88.
         </li>
+        <li id="Humboldt">von Humboldt, Wilhelm. 
+          <a target="_blank" href="texts/Humboldt_Einleitung-1.pdf">"Einleitung 
+            zu <em>Agamemnon</em>."</a> pg 1. <q>kein Wort einer Sprache vollkommen einem in einer andren gleich ist.</q>
+        </li>
+        <li id="Schleiermacher">Schleiermacher, Friedrich.
+          <a target="_blank" href="texts/Schleiermacher.pdf">On the Different Methods of Translating.</a> pg 49.
+        </li>
       </ol>
     </div>
+
+    <div id="commentary"></div>
     
     <div class="footer">
+      <button onclick="revealLinks()">Reveal Links</button>
       <p>Created by Gavin Jager. Last updated 14 Dec. 2020.</p>
     </div>
+
+    <script>
+      make_links();
+    </script>
 
 </body>
 
