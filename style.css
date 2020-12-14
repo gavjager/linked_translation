@@ -45,6 +45,10 @@ body {
   width: 100%;
 }
 
+.onecol {
+  padding: 75px 150px;
+}
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
