@@ -23,6 +23,7 @@ function dynaText(obj,texts,commentaries) {
     texts[i].push(current);
     // replace obj HTML with next text
     obj.outerHTML = texts[i][0];
+    make_links();
 }
 
 function revealLinks() {
@@ -40,5 +41,18 @@ function hideToggle(id) {
     }
     else {
         el.style.visibility = "visible";
+    }
+}
+
+function make_links() {
+    var span_links = document.getElementsByClassName("linky");
+    var l = span_links.length;
+    for (i = 0; i < l; i++) {
+        var el = span_links[0];
+        var id = el.id;
+        var contents = el.innerHTML;
+        el.outerHTML = '<span id=' + id + ' onmouseover="mOn(this)" onmouseout="mOff(this)" ' +
+        'onmousedown="dynaText(this,dynamic_text,commentaries)" ' +
+        'onmouseup="mOn(this)">' + contents + "</span>";
     }
 }
