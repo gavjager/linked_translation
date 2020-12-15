@@ -3,7 +3,8 @@ German 472 Project. Linked dynamic translation website.
 
 ## TO DO:
 - Format Biography, improve text, maybe add a photo
+- Find/add bio references
 - Add commentary for Winter-answer
-- Re-translate Part of the Question, add dynamic elements, commentary
+- Add commentary Part of the Question
 - Add Auf Sicht
 - Add Außer Landes?

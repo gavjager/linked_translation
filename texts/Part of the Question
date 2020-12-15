@@ -16,3 +16,61 @@ once more?
 Oh how my land is turning black,
 only deep below,
 time bends greenly. 
+
+
+[
+    "High above, the water is still,",
+    "The water stands there up on top,",
+] // 0
+the air rises up in
+[
+    "bubbles,",
+    "bulbs,",
+] // 1
+[
+    "<span id='2'>and the songs <br>
+    <span id='3'>no longer move me.</span></span>",
+    "<span id='2'>and what they are singing <br>
+    <span id='4'>no longer moves me.</span></span>"
+] // 2
+[
+    "no longer move me.",
+    "now leave no impression"
+] // 3
+[
+    "no longer moves me.",
+    "now leaves no impression"
+] // 4
+The fish circle round the church doors,
+[
+    "who will answer me?",
+    "who will give me an answer?"
+] // 5
+[
+    "Shall I away to the mountain,",
+    "Should I go to the mountain,"
+] // 6
+or to the house with those,
+who love me,
+[
+    "and the wide-open view,",
+    "and the broad sight,",
+    "and the far stare,"
+] // 7
+the crunch of all my steps
+[
+    "once again?",
+    "once more?"
+] // 8
+[
+    "How black my land becomes,",
+    "Oh my land is turning black,"
+] // 9
+[
+    "only deep below it bends away<br>
+    the time to green.",
+    "but in the depths below<br>
+    time bends away greenly"
+] // 10
+
+
