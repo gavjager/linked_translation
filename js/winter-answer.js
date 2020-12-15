@@ -1,5 +1,6 @@
 var german_text =
 "<h3>Winterantwort</h3>" +
+'<h6>von <a href="aichinger-v_r.html">Ilse Aichinger</a></h6>' +
 "<p>" +
 "Die Welt is aus dem Stoff,<br>" +
 "der Betrachtung verlangt:<br>" +

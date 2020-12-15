@@ -1,5 +1,6 @@
 var german_text =
 "<h3>Winterfrüh</h3>" +
+'<h6>von <a href="aichinger-v_r.html">Ilse Aichinger</a></h6>' + 
 "<p>Eh die Träume rosten und brechen,<br>" + 
 "laß die Geliebten drauf hinunterfahren,<br>" +
 "die Großen und die Kleinen in den grauen Mänteln,<br>" +

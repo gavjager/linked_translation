@@ -1,5 +1,6 @@
 var german_text =
 "<h3>Teil der Frage</h3>" +
+'<h6>von <a href="aichinger-v_r.html">Ilse Aichinger</a></h6>' + 
 "<p>" +
 "Hoch auf dem Platze steht das Wasser,<br>" +
 "die Luft steigt noch in Blasen,<br>" +
