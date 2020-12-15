@@ -94,7 +94,7 @@ var commentaries = [
 var dynamic_text = [
     [
         dynaSpan('0','0',"High above, the water is still,"),
-        dynaSpan('0','0',"The water stands there up on top,")
+        dynaSpan('0','0',"The water stands there up above,")
     ], // 0
     [
         dynaSpan('1','1',"bubbles,"),
@@ -140,7 +140,7 @@ var dynamic_text = [
         dynaSpan('10','10',"only deep below bends away<br>" +
         "the time to green."),
         dynaSpan('10','10',"but in the depths below<br>" +
-        "time bends away greenly")
+        "time bends away greenly.")
     ] // 10   
 ]
 
