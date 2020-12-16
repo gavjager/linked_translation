@@ -52,7 +52,7 @@ var weltstoff =
 'to English, the beginning of this poem was very difficult to translate. The word "Stoff," while it has a clear ' +
 'etymylogical link to "stuff" in English, has a wider breadth of meaning and usage which does not match up with the ' +
 'usually informal connotation of "stuff." I did, however, use it in two of the alternate translations, hoping to evoke an ' +
-'echo of Shakespeare\'s: "we are such stuff as dreams are made of," which closely mirrors the usage here. ' +
+'echo of Shakespeare\'s: "we are such stuff as dreams are made of," which which is closer to the usage here. ' +
 'However, outside of a dynamic translation, I would have likely chosen "fabric" or "nature of the world." ' +
 'The word "Betrachtung" in the German, which also has a wide breadth of meaning, encapsulating "contemplation," ' +
 '"consideration," "discourse," and elements of "examination," was another obvious choice for a dynamic element in the poem. ' +
@@ -66,7 +66,7 @@ var augen_und_ohren =
 'The sense that the original poem conveys here is one of purpose. It is clear of the eyes and ears mentioned ' +
 'that they were "eyes in order to see," and "ears in order to hear," not just that they could potentially be used ' +
 'to look at fields and hear birds. I tried to give the translation that same sense by emphasizing the "lack" ' +
-'of each, and using the construction "eyes with which to see," instead of simply "eyes to see." ' +
+'of each, or using the construction "eyes with which to see," instead of simply "eyes to see." ' +
 "</p>";
 
 var keine_augen_mehr = 
@@ -74,7 +74,7 @@ var keine_augen_mehr =
 "<p>" +
 'I thought this would be an interesting place to show this type of translation\'s potential ' +
 'for emphasizing different aspects of meaning. The original German corresponding to this element ' +
-'conveys the sense of both a personal loss of the senses and a general societal loss of the senses over time.' +
+'conveys the sense of both a personal loss of the senses and a general societal loss of the senses over time. ' +
 'While the English "no more eyes," probably does this sufficiently well, I thought it would be interesting to ' +
 'include both variants to highlight this distinction.' +
 "</p>";
@@ -82,10 +82,10 @@ var keine_augen_mehr =
 var schmecken = 
 '<h3>A German Verb</h3>' +
 "<p>" +
-'The German verb "schmecken" – to taste, is a very interesting one, in that it has positive connotations as a default.' +
-'When something tastes good in German, the phrase is "das schmeckt mir" – that tastes to me. And while the appeal of ' +
+'The German verb "schmecken" – to taste, is a very interesting one, in that it has positive connotations as a default. ' +
+'When something tastes good in German, the phrase is "das schmeckt mir" – "that tastes to me." And while the appeal of ' +
 'eating grasses is somewhat limited in the general, non-bovine population, there is a positive association built into ' +
-'the language of the original poem.' +
+'the language of the original poem which I thought was important to carry over.' +
 "</p>";
 
 var himmel_zu_ende = 
