@@ -34,13 +34,16 @@ function revealLinks() {
     }
 }
 
-function hideToggle(id) {
-    var el = document.getElementById(id);
-    if (el.style.visibility != "hidden") {
-        el.style.visibility = "hidden";
+function hideCommentary() {
+    var comm = document.getElementById('commentary');
+    var text = document.getElementById('text');
+    if (comm.style.display != "none") {
+        comm.style.display = "none";
+        text.style.width = "100%";
     }
     else {
-        el.style.visibility = "visible";
+        comm.style.display = "table-cell";
+        text.style.width = "50%";
     }
 }
 

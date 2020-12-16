@@ -26,10 +26,10 @@ var german_text =
 var gen_commentary = 
 '<h3>Translating "Winter-Answer"</h3>' +
 "<p>" +
-"Winter-answer is a poem of the senses and perception. The title is another example of " +
-"a German compound, one which in this case does not lend itself to an obvious interpretation " +
+"Winter-answer is a poem of the senses and perception. The title is an example of " +
+"a German compound word, one which in this case does not lend itself to an obvious interpretation " +
 "even with the context of the poem. It is clear that the poem is advocating for a return " +
-"to some other mode of perception, one which even the grandmother has forgotten. " +
+"to some other mode of perception, one which even the grandmother in the poem has forgotten. " +
 "Perhaps it can be seen in the light of the sense-dullness and isolation of winter, in which " +
 'the sky is darker for longer, the birds have migrated, and there is no "grass to taste." ' +
 'With this in mind, "Winterantwort" can be seen as an answer to the numbness of winter, ' +
