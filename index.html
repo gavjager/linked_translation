@@ -42,27 +42,27 @@
       <hr>
       <h2>How to Use This Website</h2>
       <p>
-        This is a website of translated poetry.
-        The links below or in the navigation bar above will
-        bring up a new page with a translated poem in the left column
-        and a translator's commentary in the right. 
-        Each poem in this collection contains links which are initially 
+        This is a website of translated poetry. The poems are dynamic: elements of the translations
+        will change if you click on them, creating multiple readings of the same
+        translated poem. The links which activate the dynamic elements are initially 
         invisible. To view them, you can either find them with your
-        cursor (they will highlight <span onmouseover="mOn(this)" onmouseout="mOff(this)"
-        onmousedown="this.innerHTML = 'blue: you found it!'"
+        cursor (they will highlight <span id='blue' onmouseover="mOn(this)" onmouseout="mOff(this)"
+        onmousedown="toggleBlue()"
         onmouseup="mOn(this)">blue like this does</span>) or press the "Reveal Links"
         button at the bottom of each page. 
         The links can be hidden again by passing your cursor over them.
         Clicking a link will change that element of the translation.
-        There is sometimes more than one alternate element, and sometimes they are nested!
+        There is often more than one alternate option for an element, and sometimes dynamic elements
+        are nested within other dynamic elements!
       </p>
       <p>
-        Clicking the poem links will also bring up commentary
-        corresponding to the dynamic element, which will be displayed in the
-        right-hand column.
-        You also have the option to bring up the original German version of the poem
-        (the smaller link at the bottom of the poem), or, by clicking
-        on the title, to return to the translator's general commentary. 
+        These elements also link to commentaries about the changes.
+        The links below or in the navigation bar above will
+        bring up a new page with a translated poem in the left column
+        and translator's commentary in the right. 
+        You also have the option to bring up the original German version of the poem in the right-hand column
+        (the smaller link at the bottom of the poem). Clicking
+        on the title will return to the translator's general commentary initially displayed when you open the page. 
         The right-hand column, which tends to be
         distracting at times, can be hidden with the
         "Hide/Show Commentary" button at the bottom of those pages.
@@ -85,6 +85,19 @@
       <button onclick="revealLinks()">Reveal Links</button>
       <p>Created by Gavin Jager. Last updated 15 Dec. 2020.</p>
     </div>
+
+    <script>
+      var toggle = 1;
+      function toggleBlue() {
+        if (toggle == 1) {
+          document.getElementById('blue').innerHTML = 'blue: you found it!';
+        }
+        else {
+          document.getElementById('blue').innerHTML = "blue like this does";
+        }
+        toggle *= -1;
+      }
+    </script>
 
 </body>
 
