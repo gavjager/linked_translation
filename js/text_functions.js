@@ -34,16 +34,16 @@ function revealLinks() {
     }
 }
 
-function hideCommentary() {
-    var comm = document.getElementById('commentary');
-    var text = document.getElementById('text');
-    if (comm.style.display != "none") {
-        comm.style.display = "none";
-        text.style.width = "100%";
+function hide(hideid,showid) {
+    var hide = document.getElementById(hideid);
+    var show = document.getElementById(showid);
+    if (hide.style.display != "none") {
+        hide.style.display = "none";
+        show.style.width = "100%";
     }
     else {
-        comm.style.display = "table-cell";
-        text.style.width = "50%";
+        hide.style.display = "table-cell";
+        show.style.width = "50%";
     }
 }
 
