@@ -97,12 +97,34 @@ var himmel_zu_ende =
 'I tried to pick variants which represented these ideas in their structure and wording.' +
 "</p>";
 
+var finsterer_wald = 
+'<h3>A Dark Woods</h3>' +
+"<p>" +
+'Given the symbolism of "the woods" in this poem, it seems a good place to build in some alternate intepretations. ' +
+'The first variant, "Isn\'t it dark..." fits much better into the overall tone of the poem, and sounds as if a ' +
+'grandmother were actually saying it, while "Is it not a dark woods..." evokes a ghost-story type of mood, right on ' +
+'the edge of of "It was a dark and stormy night." Both readings contribute to developing the tone of the poem in different, ' +
+'but equally important ways.' +
+"</p>";
+
+var am_rande = 
+'<h3>On the Edge of the Woods</h3>' +
+"<p>" +
+'The literal translation of the German here is "on the edge," but the nature of the language is such that it could also be ' +
+'translated as "on its edge." German often substitutes possessive pronouns with an article, and it is understood implicitly ' +
+'in a similar way that an English phrase would be understood with a possessive pronoun. However, the poem is clearly ' +
+'addressing something larger than simply the edge of a forest. Therefore, it seemed that the generality of "the" would also ' +
+'be appropriate to the situation.' +
+"</p>";
+
 var commentaries = [
     weltstoff,
     augen_und_ohren,
     keine_augen_mehr,
     schmecken,
-    himmel_zu_ende
+    himmel_zu_ende,
+    finsterer_wald,
+    am_rande
 ]
 
 var dynamic_text = [
@@ -142,7 +164,15 @@ var dynamic_text = [
         dynaSpan('4','4',"the sky for us to the end,"),
 
         dynaSpan('4','4',"for us the sky completely,")
-    ] // 4
+    ], // 4
+    [
+        dynaSpan('5','5',"Isn't it dark, this woods"),
+        dynaSpan('5','5',"Is it not a dark woods")
+    ], // 5
+    [
+        dynaSpan('6','6',"the edge,"),
+        dynaSpan('6','6',"its edge,")
+    ] // 6
 ]
 
 function writeCommentary() {
